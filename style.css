@@ -1,0 +1,198 @@
+html{
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.navebar{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    border-bottom: 1px ridge;
+}
+.navbar2{
+    display: none;
+}
+.navebar a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 91px;
+    height: 34px;
+}
+.navebar ul{
+    list-style-type: none;
+}
+.navebar li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;
+}
+.navebar a:hover{
+    color:#5624d0;
+}
+.search input[type=text]{
+    width:550px;
+    height:35px;
+    border-radius:25px;
+    margin: 0;
+} 
+.search button{
+    height: 35;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    position:absolute;
+    top:40px;
+    left: 750px;
+    background-color: transparent;
+}
+.login button{
+   border-width: 1px;
+   background-color: transparent;
+   text-align: center;
+   height: 40px;
+   width: 70px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.signup button{
+    border-width: 1px;
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    width: 70px;
+    font-weight: bold;
+    color: white; 
+    cursor: pointer;
+ }
+ .language button{
+    background-color: transparent;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+.cart{
+    cursor: pointer;
+    position:relative;
+}
+.navebar button:hover{
+    background-color: #E8E8E8;
+}
+.signup button:hover{
+    background-color: black;
+}
+.heading img{
+    position: relative;
+}
+.OurText{
+    height: 300px;
+    width: 500;
+    background: white;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    padding: 24px;
+    box-sizing: border-box;
+    box-shadow: 5px 3px 20px black;
+}
+.OurText h1{
+    font-weight: bold;
+    max-width: 350px;
+}
+.OurText p{
+    font-size: 20px;
+    max-width: 350px;
+}
+.Courses h1{
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+.Courses h4{
+    font-size: 20px;
+}
+.python{
+   border-style: ridge;
+}
+.python h2{
+    padding-left: 40px;
+    font-size: 20px;
+}
+.python p{
+    padding-left: 40px;
+    max-width: 800px;
+}
+.explore{
+    padding-left: 40px;
+}
+.explore button{
+    border-width: 1px;
+    background-color: transparent;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+.explore button:hover{
+    background-color: #E8E8E8;
+}
+.course img{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.course h4{
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 5px;
+    max-width: 250px;
+    margin-bottom: 4px;
+}
+.course h3{
+    padding-left: 10px;
+    margin-top: 3px;
+    margin-right: 1px;
+    max-width: 50px;
+    display: inline;
+}
+.course p{
+    margin-top: 1px;
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 1px;
+    display: inline;
+    padding-left: 10px;
+}
+.rate img{
+    padding-top: 1px;
+}
+.price p{
+    padding-left: 0px;
+}
+.Courses-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1300px) {
+    .heading img{
+        width: 100%;
+    }
+    .OurText{
+        position: static;
+        padding: 0px;
+        height: auto;
+        width: 100%;
+    }
+    .navebar{
+        display: none;
+    }
+    .navbar2{
+        display: flex;
+    }
+    .navbar2 img{
+        width: 91px;
+        height: 34px;
+        padding-right: 70%;
+        cursor: pointer;
+    }
+    
+  }
